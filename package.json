@@ -1,0 +1,40 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Implantação Backend Upload Exames",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "roberto junior",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1102.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "mssql": "^8.0.2",
+    "multer": "^1.4.4",
+    "multer-s3": "^2.10.0",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
+  },
+  "keywords": [
+    "implantacao",
+    "backend",
+    "upload",
+    "exames"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rob3rtojr/gitteste.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rob3rtojr/gitteste/issues"
+  },
+  "homepage": "https://github.com/rob3rtojr/gitteste#readme"
+}
