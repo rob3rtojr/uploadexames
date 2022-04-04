@@ -5,7 +5,7 @@ const express = require('express');
 const morgan = require('morgan');
 const app = express();
 
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 3100;
 
 
 app.use(express.json());
