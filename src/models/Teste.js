@@ -20,7 +20,7 @@ class Teste extends Model {
                     },
                     beforeDestroy: (teste, options, cb) => {
                         s3.deleteObject({
-                            Bucket: process.env.BUCKET_NAME,
+                            Bucket: process.env.AWS_BUCKET_NAME,
                             Key: teste.key
                         }).promise();
                     }
