@@ -12,8 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan('dev'));
 
-//app.use(require('./src/routes'));
-
+app.use(require('./src/routes'));
 
 app.listen(port,()=>{
     console.log('JSON Server is running - port: ' + port);
